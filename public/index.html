@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MONY DRINKING GAME</title>
+    <title>Game</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -78,7 +78,7 @@
 
 <body>
     <div id="app">
-        <h1>MONY DRINKING GAME</h1>
+        <h1>Drinking Game</h1>
         <div class="grid">
             <div v-for=" (card, index) in cards " :key="index" class="card"
                 :class="{ open: card.isOpen, drink: card.isDrink && card.isOpen}" @click="openCard(index)">
